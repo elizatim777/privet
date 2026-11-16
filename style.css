@@ -54,15 +54,26 @@ ul {
 
 #qqq {
     color: aqua;
-    border-width: 3px;
+    display: block;
+    border: 3px solid;
+    padding: 8px;
+    margin: 8px 0;
 }
 
 #www { 
     color: blueviolet;
+    display: block;
+    border: 3px solid;
+    padding: 8px;
+    margin: 8px 0;
 }
 
 #eee {
     color: brown;
+    display: block;
+    border: 3px solid;
+    padding: 8px;
+    margin: 8px 0;
 }
 
 .aaa {
@@ -82,24 +93,28 @@ ul {
     width: 300px;
     height: 40px;
     justify-content: flex-start;
+    background: rgb(14, 106, 14)
 }
 
 .ppp {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(234, 255, 0);
 }
 
 .ooo {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(255, 50, 139);
 }
 
 .iii {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(0, 255, 0);
 }
 
 .papa {
@@ -108,24 +123,28 @@ ul {
     width: 300px;
     height: 40px;
     justify-content: flex-end;
+    background: rgb(14, 106, 14)
 }
 
 .uuu {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(234, 255, 0);
 }
 
 .yyy {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(255, 50, 139);
 }
 
 .ttt {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(0, 255, 0);
 }
 
 .papa2 {
@@ -134,24 +153,28 @@ ul {
     width: 300px;
     height: 40px;
     justify-content: center;
+    background: rgb(14, 106, 14)
 }
 
 .uuu2 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(234, 255, 0);
 }
 
 .yyy2 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(255, 50, 139);
 }
 
 .ttt2 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(0, 255, 0);
 }
 
 .papa3 {
@@ -160,24 +183,28 @@ ul {
     width: 300px;
     height: 40px;
     justify-content: space-around;
+    background: rgb(14, 106, 14)
 }
 
 .uuu3 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(234, 255, 0);
 }
 
 .yyy3 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(255, 50, 139);
 }
 
 .ttt3 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(0, 255, 0);
 }
 
 .papa4 {
@@ -186,24 +213,28 @@ ul {
     width: 300px;
     height: 40px;
     justify-content: space-between;
+    background: rgb(14, 106, 14)
 }
 
 .uuu4 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(234, 255, 0);
 }
 
 .yyy4 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(255, 50, 139);
 }
 
 .ttt4 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(0, 255, 0);
 }
 
 .papa5 {
@@ -212,22 +243,318 @@ ul {
     width: 300px;
     height: 40px;
     justify-content: space-evenly;
+    background: rgb(14, 106, 14)
 }
 
 .uuu5 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(234, 255, 0);
 }
 
 .yyy5 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(255, 50, 139);
 }
 
 .ttt5 {
     border: 2px solid black;
     width: 20px;
     height: 20px;
+    background: rgb(0, 255, 0);
+}
+
+.zaza {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(255, 0, 0);
+    width: 200px;
+    height: 50px;
+}
+
+.q1 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.q2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.q3 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.q4 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: rgb(174, 174, 255);
+    margin: 2px;
+}
+
+.zaza1 {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 2px solid rgb(255, 0, 0);
+    width: 200px;
+    height: 50px;
+}
+
+.w1 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.w2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.w3 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.w4 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: rgb(174, 174, 255);
+    margin: 2px;
+}
+
+.zaza2 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 200px;
+}
+
+.e1 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.e2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.e3 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.e4 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: rgb(174, 174, 255);
+    margin: 2px;
+}
+
+.zaza3 {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid rgb(255, 0, 0);
+    width: 50px;
+    height: 200px;
+}
+
+.r1 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.r2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.r3 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.r4 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: rgb(174, 174, 255);
+    margin: 2px;
+}
+
+.zaza4 {
+    display: flex;
+    align-items: stretch;
+    border: 2px solid rgb(255, 0, 0);
+    width: 150px;
+    height: 50px;
+}
+
+.t1 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.t2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.t3 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.zaza5 {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid rgb(255, 0, 0);
+    width: 150px;
+    height: 50px;
+}
+
+.y1 {
+    border: 2px;
+    width: 45px;
+    height: 30px;
+    background: blue;
+    margin: 2px;
+}
+
+.y2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.y3 {
+    border: 2px;
+    width: 45px;
+    height: 35px;
+    background: blue;
+    margin: 2px;
+}
+
+.zaza6 {
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid rgb(255, 0, 0);
+    width: 150px;
+    height: 50px;
+}
+
+.u1 {
+    border: 2px;
+    width: 45px;
+    height: 30px;
+    background: blue;
+    margin: 2px;
+}
+
+.u2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.u3 {
+    border: 2px;
+    width: 45px;
+    height: 35px;
+    background: blue;
+    margin: 2px;
+}
+
+.zaza7 {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    width: 150px;
+    height: 50px;
+}
+
+.i1 {
+    border: 2px;
+    width: 45px;
+    height: 30px;
+    background: blue;
+    margin: 2px;
+}
+
+.i2 {
+    border: 2px;
+    width: 45px;
+    height: 45px;
+    background: blue;
+    margin: 2px;
+}
+
+.i3 {
+    border: 2px;
+    width: 45px;
+    height: 35px;
+    background: blue;
+    margin: 2px;
 }
