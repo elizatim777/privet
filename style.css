@@ -51,3 +51,27 @@ ul {
     margin: 30px;
     border-style: double;
 }
+
+#qqq {
+    color: aqua;
+    border-width: 3px;
+}
+
+#www { 
+    color: blueviolet;
+}
+
+#eee {
+    color: brown;
+}
+
+.aaa {
+    display: block;
+    border:1px solid rgb(255, 0, 0);
+}
+
+.sss {
+    display: inline;
+    border: 1px solid blue;
+    color: green;
+}
