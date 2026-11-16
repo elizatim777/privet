@@ -1,0 +1,31 @@
+body{
+    background-image:url("https://avatars.mds.yandex.net/i?id=7100fab12d53ad5f7e93151d7e16b67466dd70d9-4881358-images-thumbs&n=13") ;
+}
+
+.red {
+    color: red;
+    text-align: left;
+}
+
+.blue {
+    color: blue;
+    text-align: right;
+}
+
+.yellow {
+    color: yellow;
+    text-align: center;
+}
+
+.green {
+    color: green;
+    text-align:justify
+}
+
+.purple {
+    color: purple;
+}
+
+ul {
+    list-style-type: square;
+}
