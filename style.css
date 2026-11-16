@@ -75,3 +75,159 @@ ul {
     border: 1px solid blue;
     color: green;
 }
+
+.mama {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    justify-content: flex-start;
+}
+
+.ppp {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.ooo {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.iii {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.papa {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    justify-content: flex-end;
+}
+
+.uuu {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.yyy {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.ttt {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.papa2 {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+}
+
+.uuu2 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.yyy2 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.ttt2 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.papa3 {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    justify-content: space-around;
+}
+
+.uuu3 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.yyy3 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.ttt3 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.papa4 {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.uuu4 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.yyy4 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.ttt4 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.papa5 {
+    display: flex;
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    justify-content: space-evenly;
+}
+
+.uuu5 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.yyy5 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.ttt5 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
